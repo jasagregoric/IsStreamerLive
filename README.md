@@ -1,6 +1,6 @@
 # IsStreamerLive
 
-IsLive is a Twitch streamer monitoring application built with Python and Tkinter. It checks if specified streamers are live and displays alerts. You can add, delete, mute, and view information about streamers.
+IsStreamerLive is a Twitch streamer monitoring application built with Python and Tkinter. It checks if specified streamers are live and displays alerts. You can add, delete, mute, and view information about streamers.
 
 ## Features
 
@@ -28,13 +28,7 @@ IsLive is a Twitch streamer monitoring application built with Python and Tkinter
     cd IsStreamerLive
     ```
 
-2. **Install required packages**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Create a `.env` file**
+2. **Create a `.env` file**
 
     ```bash
     touch .env
@@ -46,31 +40,6 @@ IsLive is a Twitch streamer monitoring application built with Python and Tkinter
     client_id=your_twitch_client_id
     api_key=your_twitch_api_key
     ```
-
-4. **Create a `streamers.ini` file**
-
-    ```bash
-    touch streamers.ini
-    ```
-
-    Add initial streamers and muted lists:
-
-    ```ini
-    [DEFAULT]
-    names=pokimane,ironmouse
-    muted=
-    ```
-
-5. **Prepare asset folders**
-
-    Create necessary directories and add required assets:
-
-    ```bash
-    mkdir -p assets/logos
-    mkdir -p assets/img
-    ```
-
-    Add a `close.png` image to `assets/img` for the popup close button.
 
 ## Usage
 
