@@ -25,7 +25,7 @@ IsLive is a Twitch streamer monitoring application built with Python and Tkinter
 
     ```bash
     git clone https://github.com/jasagregoric/IsStreamerLive.git
-    cd islive
+    cd IsStreamerLive
     ```
 
 2. **Install required packages**
